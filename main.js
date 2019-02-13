@@ -49,5 +49,5 @@ const convertFirstCharacterToUpperCase = text => {
   return (text = text.charAt(0).toUpperCase() + text.slice(1));
 };
 // ここにconsole.logを使って「'hello'」「'world'」を引数に渡したときの結果値を出力する
-console.log(convertFirstCharacterToUpperCase("hello"));
-console.log(convertFirstCharacterToUpperCase("world"));
+console.log(convertFirstCharacterToUpperCase('hello'));
+console.log(convertFirstCharacterToUpperCase('world'));
