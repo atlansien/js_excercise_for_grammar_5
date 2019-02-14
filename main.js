@@ -26,7 +26,7 @@ console.log(isOddNumber(14));
 // ここにfactorial関数を作る
 const factorial = function(num2) {
   let result = 1; // 上書き用の変数に最初に引数にかける1を渡す
-  for (i = num2; i > 0; i--) {
+  for (let i = num2; i > 0; i--) {
     // iに引数を代入して、iが0以下になるまで以下の動きをループさせる。
     result *= i; // resultとiをかけた値をresultに代入する。
   }
@@ -49,5 +49,5 @@ const convertFirstCharacterToUpperCase = text => {
   return (text = text.charAt(0).toUpperCase() + text.slice(1));
 };
 // ここにconsole.logを使って「'hello'」「'world'」を引数に渡したときの結果値を出力する
-console.log(convertFirstCharacterToUpperCase('hello'));
-console.log(convertFirstCharacterToUpperCase('world'));
+console.log(convertFirstCharacterToUpperCase("hello"));
+console.log(convertFirstCharacterToUpperCase("world"));
